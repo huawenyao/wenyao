@@ -1,0 +1,155 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="28.2.5">
+  <diagram name="第 1 页" id="qHobWrpvQJwsyjRTAk-U">
+    <mxGraphModel dx="1018" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EoNziJ7eT0onud2csFUL-1" value="Data &amp; Infra（数据与基础设施）" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="959" y="20" width="847" height="129" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-2" value="模型文件/服务器存储" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-1" vertex="1">
+          <mxGeometry x="43" y="46" width="212" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-3" value="数据平台" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-1" vertex="1">
+          <mxGeometry x="305" y="46" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-4" value="IoT 集成" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-1" vertex="1">
+          <mxGeometry x="479" y="46" width="119" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-5" value="第三方系统集成" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-1" vertex="1">
+          <mxGeometry x="648" y="46" width="172" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-6" value="5. Governance（AI控制平面）&#xa;AI Control Plane" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="784" y="1155" width="1218" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-7" value="企业级仪表盘&#xa;- 成本监控&#xa;- 异常预警&#xa;- 模型观测&#xa;- 应用观测" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-6" vertex="1">
+          <mxGeometry x="43" y="46" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-8" value="RAI（Responsible AI，负责任的AI）" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-6" vertex="1">
+          <mxGeometry x="353" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-9" value="业务空间管理（Business Space Management）" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-6" vertex="1">
+          <mxGeometry x="663" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-10" value="AI运行监控与运维支持" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-6" vertex="1">
+          <mxGeometry x="973" y="70" width="218" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-11" value="4. Governance（模型调度与治理层）&#xa;Model Switchboard" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="499" y="952" width="1786" height="153" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-12" value="模型连接器（Model Connector）" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-11" vertex="1">
+          <mxGeometry x="43" y="46" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-13" value="打分（Scoring）" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-11" vertex="1">
+          <mxGeometry x="353" y="58" width="176" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-14" value="模型优化器（Model Optimizer）" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-11" vertex="1">
+          <mxGeometry x="579" y="46" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-15" value="可观测性（Observability）" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-11" vertex="1">
+          <mxGeometry x="889" y="58" width="250" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-16" value="Prompt助手（Prompt Assistant）" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-11" vertex="1">
+          <mxGeometry x="1189" y="46" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-17" value="智能路由器（Intelligent Router）" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-11" vertex="1">
+          <mxGeometry x="1499" y="46" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-18" value="3. Agents（智能体层）" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="811" y="725" width="1164" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-19" value="智能体编排（Agent Orchestration）" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-18" vertex="1">
+          <mxGeometry x="43" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-20" value="智能体管理&#xa;- Super Agent&#xa;- Utility Agent" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-18" vertex="1">
+          <mxGeometry x="353" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-21" value="Prompt与记忆管理&#xa;- Prompt Template&#xa;- Memory and Reflection" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-18" vertex="1">
+          <mxGeometry x="663" y="46" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-22" value="Agents Builder" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-18" vertex="1">
+          <mxGeometry x="973" y="70" width="164" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-23" value="2. Models（模型层）" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="198" y="498" width="1570" height="177" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-24" value="模型优化（Optimization）&#xa;- 评估（Evaluation）&#xa;- 模型注册&#xa;- 实验注册" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-23" vertex="1">
+          <mxGeometry x="43" y="46" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-25" value="模型推理（Inferencing）&#xa;- 生成API&#xa;- Embedding API&#xa;- 推理API" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-23" vertex="1">
+          <mxGeometry x="353" y="46" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-26" value="模型训练管理&#xa;- 任务管理&#xa;- 训练数据管理" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-23" vertex="1">
+          <mxGeometry x="663" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-27" value="模型生命周期&#xa;- 上传/更新&#xa;- 注册&#xa;- 加载" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-23" vertex="1">
+          <mxGeometry x="973" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-28" value="内置可用模型（Out-of-box Models）" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-23" vertex="1">
+          <mxGeometry x="1283" y="58" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-29" value="1. Knowledge（知识层）" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" parent="1" vertex="1">
+          <mxGeometry x="20" y="199" width="1260" height="249" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-30" value="知识处理&#xa;- RAG 数据清洗&#xa;- 文本提取&#xa;- 元数据提取&#xa;- Chunking（切片）&#xa;- Embedding（向量化）&#xa;- Indexing（索引）&#xa;- Secure RAG" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-29" vertex="1">
+          <mxGeometry x="43" y="46" width="260" height="174" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-31" value="知识搜索&#xa;- 安全RAG&#xa;- 搜索引擎" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-29" vertex="1">
+          <mxGeometry x="353" y="94" width="260" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-32" value="知识管理&#xa;- 分类/标签&#xa;- 权限管理&#xa;- 生命周期管理&#xa;- Content Connector" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-29" vertex="1">
+          <mxGeometry x="663" y="82" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-33" value="数据源接入&#xa;- OSS&#xa;- 结构化数据平台&#xa;- 第三方数据源" style="whiteSpace=wrap;strokeWidth=2;" parent="EoNziJ7eT0onud2csFUL-29" vertex="1">
+          <mxGeometry x="973" y="82" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-34" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.33;entryY=0;rounded=0;" parent="1" source="EoNziJ7eT0onud2csFUL-29" target="EoNziJ7eT0onud2csFUL-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="473" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-35" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.22;entryY=0;rounded=0;" parent="1" source="EoNziJ7eT0onud2csFUL-23" target="EoNziJ7eT0onud2csFUL-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="983" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-36" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="EoNziJ7eT0onud2csFUL-18" target="EoNziJ7eT0onud2csFUL-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="EoNziJ7eT0onud2csFUL-11" target="EoNziJ7eT0onud2csFUL-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-38" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.9;entryX=0.5;entryY=0;rounded=0;" parent="1" source="EoNziJ7eT0onud2csFUL-1" target="EoNziJ7eT0onud2csFUL-29" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="650" y="174" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-39" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.7;entryY=0;rounded=0;" parent="1" source="EoNziJ7eT0onud2csFUL-1" target="EoNziJ7eT0onud2csFUL-23" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1383" y="473" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EoNziJ7eT0onud2csFUL-40" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.86;exitY=1;entryX=0.77;entryY=0;rounded=0;" parent="1" source="EoNziJ7eT0onud2csFUL-1" target="EoNziJ7eT0onud2csFUL-18" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1803" y="174" />
+              <mxPoint x="1803" y="700" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
