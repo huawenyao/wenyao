@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="第 1 页" id="-x50aRkxaal0eyeApQ8P">
+    <mxGraphModel dx="1018" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-1" value="为什么这是核心?" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1010" width="877" height="268" as="geometry" />
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-2" value="没有语义化&#xa;━━━━━━━&#xa;AI看到的只是&#xa;数据库表和API&#xa;无法理解业务" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="jkjoP1vUPf6P9R0HCLD4-1">
+          <mxGeometry x="46" y="67" width="172" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-3" value="有了语义化&#xa;━━━━━━━&#xa;业务目标→可执行任务&#xa;业务流程→语义图&#xa;业务数据→知识图谱" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="jkjoP1vUPf6P9R0HCLD4-1">
+          <mxGeometry x="293" y="67" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-4" value="其他能力都是辅助&#xa;━━━━━━━&#xa;• Agent Runtime = 执行语义&#xa;• Data Fabric = 存储语义&#xa;• Evaluation = 评估语义&#xa;• Working View = 展示语义" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="jkjoP1vUPf6P9R0HCLD4-1">
+          <mxGeometry x="588" y="43" width="260" height="198" as="geometry" />
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-5" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="jkjoP1vUPf6P9R0HCLD4-1" source="jkjoP1vUPf6P9R0HCLD4-2" target="jkjoP1vUPf6P9R0HCLD4-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-6" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="jkjoP1vUPf6P9R0HCLD4-1" source="jkjoP1vUPf6P9R0HCLD4-3" target="jkjoP1vUPf6P9R0HCLD4-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-7" value="能力拆解分析" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="309" y="148" width="299" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jkjoP1vUPf6P9R0HCLD4-7" source="jkjoP1vUPf6P9R0HCLD4-8" target="jkjoP1vUPf6P9R0HCLD4-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-8" value="❓ 是不是Agent能运行?" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="jkjoP1vUPf6P9R0HCLD4-7">
+          <mxGeometry x="46" y="43" width="224" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-18" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jkjoP1vUPf6P9R0HCLD4-7" source="jkjoP1vUPf6P9R0HCLD4-9" target="jkjoP1vUPf6P9R0HCLD4-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-9" value="❓ 是不是数据能统一?" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="jkjoP1vUPf6P9R0HCLD4-7">
+          <mxGeometry x="50" y="147" width="215" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-20" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jkjoP1vUPf6P9R0HCLD4-7" source="jkjoP1vUPf6P9R0HCLD4-10" target="jkjoP1vUPf6P9R0HCLD4-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-10" value="❓ 是不是能自动评估?" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="jkjoP1vUPf6P9R0HCLD4-7">
+          <mxGeometry x="50" y="251" width="215" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="jkjoP1vUPf6P9R0HCLD4-7" source="jkjoP1vUPf6P9R0HCLD4-11" target="jkjoP1vUPf6P9R0HCLD4-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-11" value="❓ 是不是能智能编排?" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="jkjoP1vUPf6P9R0HCLD4-7">
+          <mxGeometry x="50" y="355" width="215" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-12" value="❓ 是不是界面很炫酷?" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="jkjoP1vUPf6P9R0HCLD4-7">
+          <mxGeometry x="50" y="459" width="215" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-13" value="AI Native OS&#xa;最核心的能力是什么?" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="354" y="20" width="210" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-14" value="✅ 真正的核心&#xa;━━━━━━━━━━━━━&#xa;&#xa;让业务任务变成&#xa;AI可理解和执行的&#xa;语义化结构&#xa;&#xa;核心 = 语义化能力" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="325" y="738" width="268" height="222" as="geometry" />
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="jkjoP1vUPf6P9R0HCLD4-13" target="jkjoP1vUPf6P9R0HCLD4-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="jkjoP1vUPf6P9R0HCLD4-7" target="jkjoP1vUPf6P9R0HCLD4-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jkjoP1vUPf6P9R0HCLD4-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="jkjoP1vUPf6P9R0HCLD4-14" target="jkjoP1vUPf6P9R0HCLD4-1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
