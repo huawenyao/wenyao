@@ -1,0 +1,128 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="28.2.7">
+  <diagram name="第 1 页" id="PpSewSz3YW-s9vvmFCiX">
+    <mxGraphModel dx="1018" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vHJ2SJOxsObo44z40VxN-1" value="平台基建-核心建设" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="1381" height="1035" as="geometry" />
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-2" value="评估层建设" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="vHJ2SJOxsObo44z40VxN-1">
+          <mxGeometry x="46" y="248" width="248" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-3" value="KPI映射框架&#xa;━━━━━━━&#xa;• 指标定义DSL&#xa;• Reward公式&#xa;• 权重配置" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="vHJ2SJOxsObo44z40VxN-2">
+          <mxGeometry x="46" y="58" width="172" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-4" value="自动评估引擎&#xa;━━━━━━━&#xa;• 数据采集&#xa;• 指标计算&#xa;• 报告生成" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="vHJ2SJOxsObo44z40VxN-2">
+          <mxGeometry x="46" y="308" width="172" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-5" value="反馈机制&#xa;━━━━━━━&#xa;• 结果回流&#xa;• Agent权重调整&#xa;• 策略优化建议" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="vHJ2SJOxsObo44z40VxN-2">
+          <mxGeometry x="43" y="558" width="178" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-6" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="vHJ2SJOxsObo44z40VxN-2" source="vHJ2SJOxsObo44z40VxN-3" target="vHJ2SJOxsObo44z40VxN-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="vHJ2SJOxsObo44z40VxN-2" source="vHJ2SJOxsObo44z40VxN-4" target="vHJ2SJOxsObo44z40VxN-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-8" value="语义层建设" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="vHJ2SJOxsObo44z40VxN-1">
+          <mxGeometry x="437" y="43" width="281" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-9" value="制定语义Schema标准&#xa;━━━━━━━&#xa;• Mission Schema&#xa;• Task Schema&#xa;• Action Schema" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="vHJ2SJOxsObo44z40VxN-8">
+          <mxGeometry x="43" y="58" width="211" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-10" value="开发语义建模工具&#xa;━━━━━━━&#xa;• 可视化建模界面&#xa;• Schema验证器&#xa;• 版本管理" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="vHJ2SJOxsObo44z40VxN-8">
+          <mxGeometry x="54" y="308" width="188" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-11" value="建立语义库&#xa;━━━━━━━&#xa;• 常用任务模板&#xa;• 标准Action库&#xa;• 业务本体库" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="vHJ2SJOxsObo44z40VxN-8">
+          <mxGeometry x="62" y="558" width="172" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="vHJ2SJOxsObo44z40VxN-8" source="vHJ2SJOxsObo44z40VxN-9" target="vHJ2SJOxsObo44z40VxN-10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="vHJ2SJOxsObo44z40VxN-8" source="vHJ2SJOxsObo44z40VxN-10" target="vHJ2SJOxsObo44z40VxN-11">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-14" value="运行时建设" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="vHJ2SJOxsObo44z40VxN-1">
+          <mxGeometry x="793" y="43" width="242" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-15" value="Agent Registry&#xa;━━━━━━━&#xa;• 能力注册接口&#xa;• 元数据管理&#xa;• 版本控制" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="vHJ2SJOxsObo44z40VxN-14">
+          <mxGeometry x="43" y="58" width="172" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-16" value="编排引擎&#xa;━━━━━━━&#xa;• DAG执行引擎&#xa;• 并行调度&#xa;• 异常重试" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="vHJ2SJOxsObo44z40VxN-14">
+          <mxGeometry x="43" y="308" width="172" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-17" value="状态管理&#xa;━━━━━━━&#xa;• Context Store&#xa;• Session管理&#xa;• 持久化" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="vHJ2SJOxsObo44z40VxN-14">
+          <mxGeometry x="43" y="558" width="172" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="vHJ2SJOxsObo44z40VxN-14" source="vHJ2SJOxsObo44z40VxN-15" target="vHJ2SJOxsObo44z40VxN-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="vHJ2SJOxsObo44z40VxN-14" source="vHJ2SJOxsObo44z40VxN-16" target="vHJ2SJOxsObo44z40VxN-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-20" value="数据层建设" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="vHJ2SJOxsObo44z40VxN-1">
+          <mxGeometry x="1110" y="248" width="242" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-21" value="统一数据访问&#xa;━━━━━━━&#xa;• 数据连接器&#xa;• Schema映射&#xa;• 权限控制" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="vHJ2SJOxsObo44z40VxN-20">
+          <mxGeometry x="43" y="58" width="172" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-22" value="基础语义图谱&#xa;━━━━━━━&#xa;• 实体关系建模&#xa;• Neo4j部署&#xa;• 查询接口" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="vHJ2SJOxsObo44z40VxN-20">
+          <mxGeometry x="43" y="308" width="172" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-23" value="上下文管理&#xa;━━━━━━━&#xa;• Redis缓存&#xa;• Context API&#xa;• 事件流" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="vHJ2SJOxsObo44z40VxN-20">
+          <mxGeometry x="43" y="558" width="172" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-24" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="vHJ2SJOxsObo44z40VxN-20" source="vHJ2SJOxsObo44z40VxN-21" target="vHJ2SJOxsObo44z40VxN-22">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-25" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="vHJ2SJOxsObo44z40VxN-20" source="vHJ2SJOxsObo44z40VxN-22" target="vHJ2SJOxsObo44z40VxN-23">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-26" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="vHJ2SJOxsObo44z40VxN-1" source="vHJ2SJOxsObo44z40VxN-8" target="vHJ2SJOxsObo44z40VxN-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-27" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.29;rounded=0;" edge="1" parent="vHJ2SJOxsObo44z40VxN-1" source="vHJ2SJOxsObo44z40VxN-14" target="vHJ2SJOxsObo44z40VxN-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1072" y="418" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-28" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.71;entryX=1;entryY=0.67;rounded=0;" edge="1" parent="vHJ2SJOxsObo44z40VxN-1" source="vHJ2SJOxsObo44z40VxN-20" target="vHJ2SJOxsObo44z40VxN-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1072" y="828" />
+              <mxPoint x="365" y="828" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHJ2SJOxsObo44z40VxN-29" value="优化反馈" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=1;exitY=0.33;entryX=0;entryY=0.5;rounded=0;" edge="1" parent="vHJ2SJOxsObo44z40VxN-1" source="vHJ2SJOxsObo44z40VxN-2" target="vHJ2SJOxsObo44z40VxN-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="365" y="418" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
