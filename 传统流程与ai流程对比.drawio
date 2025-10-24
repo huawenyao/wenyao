@@ -1,0 +1,107 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="第 1 页" id="3RZO8-POfZfbAlCnW8RG">
+    <mxGraphModel dx="1018" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-1" value="语义驱动流程智能体（AI Agent - Semantic Driven Flow）&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="740" y="-80" width="470" height="712" as="geometry" />
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-2" value="传统流程引擎（Rule-driven Workflow Engine）&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="130" y="-20" width="420" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-3" value="业务流程模型&#xa;(流程图 + 节点逻辑)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="263" y="45" width="202" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-4" value="规则控制层&#xa;(条件判断 / 状态机)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="184" y="173" width="202" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-5" value="执行引擎&#xa;(脚本任务 / API接口)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="180" y="301" width="209" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-6" value="数据交互 &amp;amp; 日志层&#xa;(结构化字段映射)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="188" y="429" width="193" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-7" value="语义理解层&#xa;(意图解析 / 上下文语义建模)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="875" y="-45" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-8" value="推理与规划层&#xa;(任务分解 / 策略推理)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="797" y="107" width="216" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-9" value="动态调度层&#xa;(模型 / 数据 / 工具动态调度)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="775" y="235" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-10" value="执行与反馈层&#xa;(Agent协作 / 人机共驾)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="792" y="387" width="227" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-11" value="学习层&#xa;(语义记忆 / 策略优化 / 自演化)" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+          <mxGeometry x="900" y="507" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.26;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="34t6TZx6nNiFBOuDxtiq-3" target="34t6TZx6nNiFBOuDxtiq-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="285" y="148" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="34t6TZx6nNiFBOuDxtiq-4" target="34t6TZx6nNiFBOuDxtiq-5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="34t6TZx6nNiFBOuDxtiq-5" target="34t6TZx6nNiFBOuDxtiq-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.24;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="34t6TZx6nNiFBOuDxtiq-7" target="34t6TZx6nNiFBOuDxtiq-8" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="905" y="82" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-16" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="34t6TZx6nNiFBOuDxtiq-8" target="34t6TZx6nNiFBOuDxtiq-9" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-17" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" parent="1" source="34t6TZx6nNiFBOuDxtiq-9" target="34t6TZx6nNiFBOuDxtiq-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-18" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.04;entryY=0;rounded=0;" parent="1" source="34t6TZx6nNiFBOuDxtiq-10" target="34t6TZx6nNiFBOuDxtiq-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="905" y="490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-19" value="反馈优化" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.55;exitY=0;entryX=0.75;entryY=1;rounded=0;" parent="1" source="34t6TZx6nNiFBOuDxtiq-11" target="34t6TZx6nNiFBOuDxtiq-7" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1104" y="490" />
+              <mxPoint x="1104" y="82" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-20" value="自动化程度有限&#xa;规则固定" style="curved=1;startArrow=none;endArrow=block;rounded=0;" parent="1" source="34t6TZx6nNiFBOuDxtiq-6" target="34t6TZx6nNiFBOuDxtiq-1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="34t6TZx6nNiFBOuDxtiq-21" value="自学习演化&#xa;语义驱动" style="curved=1;startArrow=none;endArrow=block;rounded=0;entryX=0.429;entryY=1.006;entryDx=0;entryDy=0;entryPerimeter=0;edgeStyle=orthogonalEdgeStyle;" parent="1" source="34t6TZx6nNiFBOuDxtiq-11" target="34t6TZx6nNiFBOuDxtiq-2" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="761" y="566" />
+              <mxPoint x="761" y="570" />
+              <mxPoint x="332" y="570" />
+              <mxPoint x="332" y="523" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
