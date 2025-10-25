@@ -1,9 +1,88 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="wOZ7Y7imh2JIkPcxJxJv">
-    <mxGraphModel>
+    <mxGraphModel dx="1018" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="YaP22IGALFk07EvjBMXP-1" value="User Input / API Request" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="203" y="20" width="235" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="YaP22IGALFk07EvjBMXP-2" value="IntentResolver&#xa;语义路由与任务分派" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="218" y="124" width="204" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="YaP22IGALFk07EvjBMXP-3" value="TaskPlanner&#xa;Semantic Kernel Planner" style="whiteSpace=wrap;strokeWidth=2;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="69" y="252" width="236" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="YaP22IGALFk07EvjBMXP-4" value="GraphRunner&#xa;LangGraph 执行引擎" style="whiteSpace=wrap;strokeWidth=2;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="85" y="380" width="205" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="YaP22IGALFk07EvjBMXP-5" value="Skill Registry&#xa;API / Tool / Flow 接入层" style="whiteSpace=wrap;strokeWidth=2;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="20" y="508" width="234" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="YaP22IGALFk07EvjBMXP-6" value="Memory Service&#xa;Context + Feedback 中枢" style="whiteSpace=wrap;strokeWidth=2;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="304" y="508" width="239" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="YaP22IGALFk07EvjBMXP-7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="YaP22IGALFk07EvjBMXP-1" target="YaP22IGALFk07EvjBMXP-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaP22IGALFk07EvjBMXP-8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.1;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="YaP22IGALFk07EvjBMXP-2" target="YaP22IGALFk07EvjBMXP-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="187" y="227" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaP22IGALFk07EvjBMXP-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="YaP22IGALFk07EvjBMXP-3" target="YaP22IGALFk07EvjBMXP-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaP22IGALFk07EvjBMXP-10" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.32;exitY=1;entryX=0.47;entryY=0;rounded=0;" edge="1" parent="1" source="YaP22IGALFk07EvjBMXP-4" target="YaP22IGALFk07EvjBMXP-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="127" y="483" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaP22IGALFk07EvjBMXP-11" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=0;entryX=0.64;entryY=1;rounded=0;" edge="1" parent="1" source="YaP22IGALFk07EvjBMXP-5" target="YaP22IGALFk07EvjBMXP-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="234" y="483" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaP22IGALFk07EvjBMXP-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.81;exitY=1;entryX=0.16;entryY=0;rounded=0;" edge="1" parent="1" source="YaP22IGALFk07EvjBMXP-4" target="YaP22IGALFk07EvjBMXP-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="290" y="483" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaP22IGALFk07EvjBMXP-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.53;exitY=0;entryX=0.84;entryY=1;rounded=0;" edge="1" parent="1" source="YaP22IGALFk07EvjBMXP-6" target="YaP22IGALFk07EvjBMXP-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="434" y="483" />
+              <mxPoint x="434" y="227" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaP22IGALFk07EvjBMXP-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.58;exitY=0;entryX=1;entryY=0.86;rounded=0;" edge="1" parent="1" source="YaP22IGALFk07EvjBMXP-6" target="YaP22IGALFk07EvjBMXP-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="454" y="483" />
+              <mxPoint x="454" y="355" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YaP22IGALFk07EvjBMXP-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.86;exitY=1;entryX=0.21;entryY=0;rounded=0;" edge="1" parent="1" source="YaP22IGALFk07EvjBMXP-4" target="YaP22IGALFk07EvjBMXP-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="310" y="483" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
