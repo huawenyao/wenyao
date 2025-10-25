@@ -1,0 +1,126 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="第 1 页" id="33mT1WH-j0ijBiWvzBhb">
+    <mxGraphModel dx="1018" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3hld760slfkAZNc5rapU-4" value="Flow 结构约束层" style="whiteSpace=wrap;strokeWidth=2;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+          <mxGeometry x="57" y="377" width="178" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-1" value="用户输入" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="178" y="20" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-2" value="Router 智能决策层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="144" y="124" width="192" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-3" value="Planner 认知融合层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="47" y="251" width="199" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-5" value="Semantic Execution Engine" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="20" y="504" width="253" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-6" value="Context Memory / 学习反馈" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="110" y="630" width="259" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-7" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="3hld760slfkAZNc5rapU-1" target="3hld760slfkAZNc5rapU-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-8" value="RoutingMessage" style="curved=1;startArrow=none;endArrow=block;exitX=0.29;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="3hld760slfkAZNc5rapU-2" target="3hld760slfkAZNc5rapU-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="146" y="214" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-9" value="生成计划" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="3hld760slfkAZNc5rapU-3" target="3hld760slfkAZNc5rapU-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-10" value="语义化执行描述" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="3hld760slfkAZNc5rapU-4" target="3hld760slfkAZNc5rapU-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-11" value="执行事件 + 状态" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.35;entryY=0;rounded=0;" edge="1" parent="1" source="3hld760slfkAZNc5rapU-5" target="3hld760slfkAZNc5rapU-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="146" y="594" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-12" value="优化策略/重规划" style="curved=1;startArrow=none;endArrow=block;exitX=0.65;exitY=0;entryX=0.71;entryY=1;rounded=0;" edge="1" parent="1" source="3hld760slfkAZNc5rapU-6" target="3hld760slfkAZNc5rapU-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="333" y="594" />
+              <mxPoint x="333" y="214" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-13" value="用户输入" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="658" y="20" width="124" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-14" value="Router 智能决策层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="624" y="124" width="192" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-15" value="Planner 认知融合层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="527" y="251" width="199" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-16" value="Flow 结构约束层" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="537" y="377" width="178" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-17" value="Semantic Execution Engine" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="500" y="504" width="253" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="3hld760slfkAZNc5rapU-18" target="3hld760slfkAZNc5rapU-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-18" value="Context Memory / 学习反馈" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="590" y="630" width="259" height="54" as="geometry" />
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-19" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="3hld760slfkAZNc5rapU-13" target="3hld760slfkAZNc5rapU-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-20" value="RoutingMessage" style="curved=1;startArrow=none;endArrow=block;exitX=0.29;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="3hld760slfkAZNc5rapU-14" target="3hld760slfkAZNc5rapU-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="626" y="214" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-21" value="生成计划" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="3hld760slfkAZNc5rapU-15" target="3hld760slfkAZNc5rapU-16">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-22" value="语义化执行描述" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="3hld760slfkAZNc5rapU-16" target="3hld760slfkAZNc5rapU-17">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-23" value="执行事件 + 状态" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.35;entryY=0;rounded=0;" edge="1" parent="1" source="3hld760slfkAZNc5rapU-17" target="3hld760slfkAZNc5rapU-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="626" y="594" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-24" value="优化策略/重规划" style="curved=1;startArrow=none;endArrow=block;exitX=0.65;exitY=0;entryX=0.71;entryY=1;rounded=0;" edge="1" parent="1" source="3hld760slfkAZNc5rapU-18" target="3hld760slfkAZNc5rapU-14">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="813" y="594" />
+              <mxPoint x="813" y="214" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3hld760slfkAZNc5rapU-25" value="DOM数据对象实例数据保存" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="998.5" y="627" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
