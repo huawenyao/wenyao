@@ -1,9 +1,90 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="N0gdLDoWs_QAm-wlj_sy">
-    <mxGraphModel>
+    <mxGraphModel dx="1018" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="0xEQBiROoBpo4O9zLup9-1" value="User" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="20" y="20" width="150" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="0xEQBiROoBpo4O9zLup9-2" value="IntentResolver" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="220" y="20" width="150" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="0xEQBiROoBpo4O9zLup9-3" value="Memory" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="500" y="20" width="150" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="0xEQBiROoBpo4O9zLup9-4" value="TaskPlanner" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="733" y="20" width="150" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="0xEQBiROoBpo4O9zLup9-5" value="GraphRunner" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="933" y="20" width="150" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="0xEQBiROoBpo4O9zLup9-6" value="SkillRegistry" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};size=65;labelBackgroundColor=none;fillColor=#A8DADC;strokeColor=#457B9D;fontColor=#1D3557;" vertex="1" parent="1">
+          <mxGeometry x="1133" y="20" width="150" height="640" as="geometry" />
+        </mxCell>
+        <mxCell id="0xEQBiROoBpo4O9zLup9-7" value="输入文本" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="0xEQBiROoBpo4O9zLup9-1" target="0xEQBiROoBpo4O9zLup9-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="204" y="123" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xEQBiROoBpo4O9zLup9-8" value="获取历史 Context / 向量匹配" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="0xEQBiROoBpo4O9zLup9-2" target="0xEQBiROoBpo4O9zLup9-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="444" y="179" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xEQBiROoBpo4O9zLup9-9" value="RoutingMessage" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="0xEQBiROoBpo4O9zLup9-2" target="0xEQBiROoBpo4O9zLup9-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="235" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xEQBiROoBpo4O9zLup9-10" value="调用上下文 / 知识查询" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="0xEQBiROoBpo4O9zLup9-4" target="0xEQBiROoBpo4O9zLup9-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="703" y="291" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xEQBiROoBpo4O9zLup9-11" value="PlanGraph" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="0xEQBiROoBpo4O9zLup9-4" target="0xEQBiROoBpo4O9zLup9-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="917" y="347" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xEQBiROoBpo4O9zLup9-12" value="调用对应 Skill" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="0xEQBiROoBpo4O9zLup9-5" target="0xEQBiROoBpo4O9zLup9-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1117" y="403" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xEQBiROoBpo4O9zLup9-13" value="节点输出" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="0xEQBiROoBpo4O9zLup9-6" target="0xEQBiROoBpo4O9zLup9-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1120" y="451" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xEQBiROoBpo4O9zLup9-14" value="写执行轨迹与结果" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="0xEQBiROoBpo4O9zLup9-5" target="0xEQBiROoBpo4O9zLup9-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="803" y="499" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xEQBiROoBpo4O9zLup9-15" value="反馈统计 / 权重优化" style="verticalAlign=bottom;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;dashed=1;dashPattern=2 3;endArrow=block;labelBackgroundColor=none;strokeColor=#457B9D;fontColor=default;" edge="1" parent="1" source="0xEQBiROoBpo4O9zLup9-3" target="0xEQBiROoBpo4O9zLup9-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="447" y="555" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
