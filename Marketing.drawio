@@ -1,9 +1,102 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="BQ9rDn6TMhr0QSj5tRCi">
-    <mxGraphModel>
+    <mxGraphModel dx="1845" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-2" value="AA层: 活动智能体 (Action Agents)" style="whiteSpace=wrap;strokeWidth=2;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="410" y="268" width="330" height="1422" as="geometry" />
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-3" value="AA_NewMKTer&#xa;项目启动智能体&#xa;输出: 项目计划书" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="RHanHQ07vVqBdZUFdnYN-2">
+          <mxGeometry x="82" y="46" width="183" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-4" value="AA_InsightExpert&#xa;营销洞察智能体&#xa;输出: 用户洞察+竞品洞察报告" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="RHanHQ07vVqBdZUFdnYN-2">
+          <mxGeometry x="43" y="245" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-5" value="AA_CreativeExpert&#xa;Tagline生成智能体&#xa;输出: 候选Tagline池+推荐方案" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="RHanHQ07vVqBdZUFdnYN-2">
+          <mxGeometry x="43" y="469" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-6" value="AA_Designer&#xa;广告素材智能体&#xa;输出: 广告图像+配套文案" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="RHanHQ07vVqBdZUFdnYN-2">
+          <mxGeometry x="53" y="692" width="239" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-7" value="AA_AdsExpert&#xa;广告前测智能体&#xa;输出: 测试数据+CTR+ROI" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="RHanHQ07vVqBdZUFdnYN-2">
+          <mxGeometry x="55" y="892" width="236" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-8" value="AA_ConfirmTagline&#xa;Tagline确认智能体&#xa;输出: 最终推荐Tagline" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="RHanHQ07vVqBdZUFdnYN-2">
+          <mxGeometry x="64" y="1091" width="217" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-9" value="AA_CampaignPlanner&#xa;传播策略智能体&#xa;输出: Campaign传播报告" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="RHanHQ07vVqBdZUFdnYN-2">
+          <mxGeometry x="55" y="1291" width="237" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-10" value="流程顺序" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="RHanHQ07vVqBdZUFdnYN-2" source="RHanHQ07vVqBdZUFdnYN-3" target="RHanHQ07vVqBdZUFdnYN-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-11" value="流程顺序" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="RHanHQ07vVqBdZUFdnYN-2" source="RHanHQ07vVqBdZUFdnYN-4" target="RHanHQ07vVqBdZUFdnYN-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-12" value="流程顺序" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="RHanHQ07vVqBdZUFdnYN-2" source="RHanHQ07vVqBdZUFdnYN-5" target="RHanHQ07vVqBdZUFdnYN-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-13" value="流程顺序" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="RHanHQ07vVqBdZUFdnYN-2" source="RHanHQ07vVqBdZUFdnYN-6" target="RHanHQ07vVqBdZUFdnYN-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-14" value="流程顺序" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="RHanHQ07vVqBdZUFdnYN-2" source="RHanHQ07vVqBdZUFdnYN-7" target="RHanHQ07vVqBdZUFdnYN-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-15" value="流程顺序" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="RHanHQ07vVqBdZUFdnYN-2" source="RHanHQ07vVqBdZUFdnYN-8" target="RHanHQ07vVqBdZUFdnYN-9">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-16" value="PA: AI Marketing 主流程智能体 (Process Agent)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-60" y="660" width="355" height="850" as="geometry" />
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-17" value="Main Loop: 统一调度循环&#xa;- 按阶段激活AA智能体&#xa;- 汇总全局上下文&#xa;- 监控执行状态&#xa;- 触发UIP调用" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-4" y="710" width="239" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-18" value="UIP: 统一调用协议&#xa;- 定义输入输出Schema&#xa;- 统一数据封装标准&#xa;- 支撑跨Agent通信" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="5" y="916" width="221" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-19" value="Context Service: 上下文管理&#xa;- 记录实时执行状态&#xa;- 支持快照和回滚&#xa;- 存储执行产物索引" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-25" y="1280" width="260" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-30" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" edge="1" parent="1" source="RHanHQ07vVqBdZUFdnYN-20" target="RHanHQ07vVqBdZUFdnYN-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-20" value="数据层 - 外部接口&#xa;• BEES: 竞品对标数据&#xa;• IMM: 社媒VOC采集&#xa;• AMDP: 产品主数据&#xa;• Feishu API: 报告生成" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="1730" width="220" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-25" value="读取数据/存索引" style="curved=1;dashed=1;dashPattern=2 3;startArrow=block;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="RHanHQ07vVqBdZUFdnYN-19" target="RHanHQ07vVqBdZUFdnYN-20">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-26" value="UIP协议调用" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;rounded=0;" edge="1" parent="1" source="RHanHQ07vVqBdZUFdnYN-16" target="RHanHQ07vVqBdZUFdnYN-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-27" value="执行结果回写" style="curved=1;startArrow=none;endArrow=block;strokeWidth=3;exitX=0;exitY=0.77;rounded=0;" edge="1" parent="1" source="RHanHQ07vVqBdZUFdnYN-2" target="RHanHQ07vVqBdZUFdnYN-19">
+          <mxGeometry x="-0.3242" y="-40" relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="258" y="1726" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHanHQ07vVqBdZUFdnYN-29" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(236, 236, 236); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;底层服务: 数据与工具支撑层&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="1690" width="180" height="40" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
