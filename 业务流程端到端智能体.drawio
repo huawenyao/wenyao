@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="28.2.8">
   <diagram name="第 1 页" id="h3hgbBWcbdByqlCBYL9z">
-    <mxGraphModel dx="1018" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1018" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,7 +13,7 @@
         <mxCell id="MmYG3WmRwx6jvEeJFVrk-3" value="Main Agent Loop&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;&#xa;" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="20" y="276" width="800" height="128" as="geometry" />
         </mxCell>
-        <mxCell id="MmYG3WmRwx6jvEeJFVrk-4" value="用户输入层&#xa;Natural Language Input" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
+        <mxCell id="MmYG3WmRwx6jvEeJFVrk-4" value="MoPA&#xa;流程智能体体系&#xa;语义标准层" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="426" y="20" width="227" height="78" as="geometry" />
         </mxCell>
         <mxCell id="MmYG3WmRwx6jvEeJFVrk-38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;" parent="1" source="MmYG3WmRwx6jvEeJFVrk-5" edge="1">
@@ -132,6 +132,12 @@
         </mxCell>
         <mxCell id="MmYG3WmRwx6jvEeJFVrk-35" value="MemoryService&#xa;记忆-上下文" style="whiteSpace=wrap;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="850" y="301" width="168" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rJYqVZ6IbGp5FcTkxFIN-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="rJYqVZ6IbGp5FcTkxFIN-1" target="MmYG3WmRwx6jvEeJFVrk-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rJYqVZ6IbGp5FcTkxFIN-1" value="用户输入" style="whiteSpace=wrap;html=1;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="479" y="-110" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
