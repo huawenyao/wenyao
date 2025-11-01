@@ -1,0 +1,83 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="第 1 页" id="pBqVQl8-7p_l7tCDuc_v">
+    <mxGraphModel dx="1018" dy="571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rzofpxhzexWXbq2Zq1cT-1" value="阶段 1: 初始构建 (Initial Build)&#xa;生成 v1.0 问题-目标系统" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="210" y="20" width="260" height="102" as="geometry" />
+        </mxCell>
+        <mxCell id="rzofpxhzexWXbq2Zq1cT-2" value="阶段 2: 方案设计与规划 (Design &amp;amp; Planning)&#xa;基于 v1.0 生成方案与执行计划" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="210" y="172" width="260" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="rzofpxhzexWXbq2Zq1cT-3" value="阶段 3: 执行与监控 (Execution &amp;amp; Monitoring)&#xa;Phase N 执行 → 动态健康检查&#xa;轻度失效 → 继续&#xa;中度失效 → 触发阶段 4&#xa;重度失效 → 触发阶段 5" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="210" y="348" width="260" height="142" as="geometry" />
+        </mxCell>
+        <mxCell id="rzofpxhzexWXbq2Zq1cT-4" value="阶段 4: 局部调整&#xa;生成 v1.x" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="17" y="580" width="180" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rzofpxhzexWXbq2Zq1cT-5" value="阶段 5: 全局重建&#xa;生成 v2.0" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="260" y="585" width="180" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rzofpxhzexWXbq2Zq1cT-6" value="阶段 6: 回滚机制&#xa;(如调整失败)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="135" y="747" width="180" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rzofpxhzexWXbq2Zq1cT-7" value="阶段 7: 持续优化&#xa;(长期迭代)" style="whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="197" y="875" width="180" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="rzofpxhzexWXbq2Zq1cT-8" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="rzofpxhzexWXbq2Zq1cT-1" target="rzofpxhzexWXbq2Zq1cT-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzofpxhzexWXbq2Zq1cT-9" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;" edge="1" parent="1" source="rzofpxhzexWXbq2Zq1cT-2" target="rzofpxhzexWXbq2Zq1cT-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzofpxhzexWXbq2Zq1cT-10" value="中度失效" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.89;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="rzofpxhzexWXbq2Zq1cT-3" target="rzofpxhzexWXbq2Zq1cT-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="582" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzofpxhzexWXbq2Zq1cT-11" value="重度失效" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;" edge="1" parent="1" source="rzofpxhzexWXbq2Zq1cT-3" target="rzofpxhzexWXbq2Zq1cT-5">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzofpxhzexWXbq2Zq1cT-12" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.11;entryY=-0.01;rounded=0;" edge="1" parent="1" source="rzofpxhzexWXbq2Zq1cT-4" target="rzofpxhzexWXbq2Zq1cT-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="110" y="722" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzofpxhzexWXbq2Zq1cT-13" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.89;entryY=-0.01;rounded=0;" edge="1" parent="1" source="rzofpxhzexWXbq2Zq1cT-5" target="rzofpxhzexWXbq2Zq1cT-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="722" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzofpxhzexWXbq2Zq1cT-14" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0.99;entryX=0.29;entryY=-0.01;rounded=0;" edge="1" parent="1" source="rzofpxhzexWXbq2Zq1cT-6" target="rzofpxhzexWXbq2Zq1cT-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="225" y="850" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rzofpxhzexWXbq2Zq1cT-15" value="" style="curved=1;startArrow=none;endArrow=block;exitX=1;exitY=0.08;entryX=0.85;entryY=1;rounded=0;" edge="1" parent="1" source="rzofpxhzexWXbq2Zq1cT-7" target="rzofpxhzexWXbq2Zq1cT-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="465" y="850" />
+              <mxPoint x="590" y="730" />
+              <mxPoint x="465" y="582" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
